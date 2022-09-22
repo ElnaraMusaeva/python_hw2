@@ -1,10 +1,10 @@
 s=str(input())
-a=input()
-lst=list()
+l=input()
+a=list()
 for i in range(len(lst)):
-    if s[i] == a
-        lst.append(i)
-        print(lst)
+    if s[i] == l
+        l.append(i)
+        print(find(a))
         
 
             
