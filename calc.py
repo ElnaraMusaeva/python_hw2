@@ -71,7 +71,6 @@ def equal():
     calc_operator = temp_op
 
 log, ln = math.log10, math.log
-# e = math.exp
 
 sinus = Button(tk_calc,  text='sin', command=sins).grid(row=2, column=0, sticky="nsew")
 cosinus = Button(tk_calc,  text='cos', command=cosin).grid(row=2, column=1, sticky="nsew")
