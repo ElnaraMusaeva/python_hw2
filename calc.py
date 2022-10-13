@@ -54,8 +54,6 @@ def square_root():
     if float(calc_operator)>=0:
         s = str(eval(calc_operator+'**(1/2)'))
         calc_operator = s
-    else:
-        s = "ERROR"
     textin.set(s)
 
 def percent():
@@ -66,9 +64,9 @@ def percent():
 
 def equal():
     global calc_operator
-    temp_op = str(eval(calc_operator))
-    textin.set(temp_op)
-    calc_operator = temp_op
+    e = str(eval(calc_operator))
+    textin.set(e)
+    calc_operator = e
 
 log, ln = math.log10, math.log
 
